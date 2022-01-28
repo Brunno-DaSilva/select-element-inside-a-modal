@@ -18,6 +18,11 @@ span.onclick = function () {
 };
 
 // Select element
+const modalContent = document.getElementById("modal-content");
+const one = document.getElementById("one");
+const two = document.getElementById("two");
+const receiver = document.getElementById("receiver");
+const arrayEl = [];
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
