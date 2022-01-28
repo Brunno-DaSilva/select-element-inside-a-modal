@@ -41,10 +41,10 @@ moodAnswer.addEventListener("click", function (event) {
 
   setTimeout(() => {
     if (arrayEl[0] === "🥱") {
-      encouragement.innerHTML = `<h2>Go get Some coffee</h2>`;
+      encouragement.innerHTML = `<h2>Go get Some coffee ☕</h2>`;
     }
     if (arrayEl[0] === "😎") {
-      encouragement.innerHTML = `<h2>You are awesome</h2>`;
+      encouragement.innerHTML = `<h2>You are awesome! Kudos to you 🥳</h2>`;
     }
   }, 500);
 });
