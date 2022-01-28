@@ -46,7 +46,7 @@ moodAnswer.addEventListener("click", function (event) {
     if (arrayEl[0] === "😎") {
       encouragement.innerHTML = `<h2>You are awesome</h2>`;
     }
-  }, 1000);
+  }, 500);
 });
 
 // When the user clicks anywhere outside of the modal, close it
