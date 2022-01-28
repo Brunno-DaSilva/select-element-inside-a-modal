@@ -11,25 +11,31 @@
 </head>
 
 <body>
-    <div>
+    <div class="container">
         <h1>How are you feeling?</h1>
-        <span id="receiver"></span>
-        <span id="encouragement"></span>
+        <div class="answer">
+            <span id="receiver"></span>
+            <span id="encouragement"></span>
+        </div>
+        <button id="myBtn">Open Modal</button>
     </div>
-
-    <button id="myBtn">Open Modal</button>
 
 
     <!-- The Modal -->
     <div id="myModal" class="modal">
         <!-- Modal content -->
         <div id="modal-content" class="modal-content">
-            <span class="close">&times;</span>
             <div id="mood-answer">
-                <div id="one">🥱</div>
-                <div id="two">😎</div>
+                <div>
+                    <div id="one">
+                        <h2>🥱</h2>
+                    </div>
+                    <div id="two">
+                        <h2>😎</h2>
+                    </div>
+                </div>
             </div>
-
+            <span class="close">&times;</span>
         </div>
 
     </div>
